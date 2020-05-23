@@ -185,7 +185,7 @@ export class ngxCsv {
      * @param {any} input
      */
     static isFloat(input: any) {
-        const regex = /^([+|-]?\d+.\d+\b)/;
+        const regex = /^([+|-]?\d+\.\d+\b)/;
         return regex.exec(input) !== null;
     }
 }
